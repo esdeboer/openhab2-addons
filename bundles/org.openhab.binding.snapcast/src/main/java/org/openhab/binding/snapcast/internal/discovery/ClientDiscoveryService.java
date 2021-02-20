@@ -17,10 +17,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.eclipse.jdt.annotation.NonNullByDefault;
-import org.eclipse.smarthome.config.discovery.AbstractDiscoveryService;
-import org.eclipse.smarthome.config.discovery.DiscoveryResult;
-import org.eclipse.smarthome.config.discovery.DiscoveryResultBuilder;
-import org.eclipse.smarthome.core.thing.ThingUID;
 import org.openhab.binding.snapcast.internal.SnapcastBindingConstants;
 import org.openhab.binding.snapcast.internal.data.Client;
 import org.openhab.binding.snapcast.internal.data.Client.ClientConfig;
@@ -28,6 +24,10 @@ import org.openhab.binding.snapcast.internal.data.Host;
 import org.openhab.binding.snapcast.internal.handler.SnapcastServerHandler;
 import org.openhab.binding.snapcast.internal.protocol.ClientController;
 import org.openhab.binding.snapcast.internal.protocol.ClientListener;
+import org.openhab.core.config.discovery.AbstractDiscoveryService;
+import org.openhab.core.config.discovery.DiscoveryResult;
+import org.openhab.core.config.discovery.DiscoveryResultBuilder;
+import org.openhab.core.thing.ThingUID;
 
 /**
  * Discovery service for snapcast clients
