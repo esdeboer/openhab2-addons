@@ -58,9 +58,9 @@ public class ClientController extends AbstractController<Client, ClientListener>
     /**
      * Set the client volume
      *
-     * @param id      The internal snapcast-id (not the UID) of the client
+     * @param id The internal snapcast-id (not the UID) of the client
      * @param percent The volume
-     * @param muted   {@code true} if the client is to be muted
+     * @param muted {@code true} if the client is to be muted
      */
     public void setVolume(String id, @Nullable Integer percent, Boolean muted) {
         ClientConfig params = new ClientConfig();
@@ -72,7 +72,7 @@ public class ClientController extends AbstractController<Client, ClientListener>
     /**
      * Set the client latency
      *
-     * @param id      The internal snapcast-id (not the UID) of the client
+     * @param id The internal snapcast-id (not the UID) of the client
      * @param latency The latency in ms
      */
     public void setLatency(String id, Integer latency) {
@@ -85,7 +85,7 @@ public class ClientController extends AbstractController<Client, ClientListener>
     /**
      * Set the client name
      *
-     * @param id   The internal snapcast-id (not the UID) of the client
+     * @param id The internal snapcast-id (not the UID) of the client
      * @param name The name
      */
     public void setName(String id, String name) {
@@ -101,7 +101,7 @@ public class ClientController extends AbstractController<Client, ClientListener>
      * With the current api it is not possible to set the stream for a single client. Only for all clients in a group.
      * This method will remove all clients, except the selected one, from the group and set the stream for the group.
      *
-     * @param id       The internal snapcast-id (not the UID) of the client
+     * @param id The internal snapcast-id (not the UID) of the client
      * @param streamId id of the stream
      *
      * @see GroupController#setStream(String, String)
@@ -195,5 +195,4 @@ public class ClientController extends AbstractController<Client, ClientListener>
 
         });
     }
-
 }

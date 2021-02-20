@@ -253,7 +253,6 @@ public class SnapcastClientHandler extends BaseThingHandler {
                 return null;
             }
         }
-
     }
 
     /**
@@ -316,6 +315,5 @@ public class SnapcastClientHandler extends BaseThingHandler {
                 return null;
             }
         }
-
     }
 }

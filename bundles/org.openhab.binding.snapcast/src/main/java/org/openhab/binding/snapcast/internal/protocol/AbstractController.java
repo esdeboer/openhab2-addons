@@ -151,7 +151,7 @@ public abstract class AbstractController<T extends Identifiable, L> {
     /**
      * Add a listener to receive status updates.
      *
-     * @param id       The internal snapcast-id (not the UID) or {@code null} to receive all status updates
+     * @param id The internal snapcast-id (not the UID) or {@code null} to receive all status updates
      * @param listener The update handler
      */
     public void addListener(@Nullable String id, L listener) {
@@ -168,7 +168,7 @@ public abstract class AbstractController<T extends Identifiable, L> {
     /**
      * Remove a listener
      *
-     * @param The      internal snapcast-id (not the UID) or {@code null}
+     * @param The internal snapcast-id (not the UID) or {@code null}
      * @param listener The update handler
      * @see #addListener(String, Object)
      */
@@ -208,5 +208,4 @@ public abstract class AbstractController<T extends Identifiable, L> {
             fn.accept(l);
         }
     }
-
 }

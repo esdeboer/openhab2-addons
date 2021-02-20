@@ -6,13 +6,13 @@
 
 	<!-- Snapcast Server -->
 	<bridge-type id="server">
-	
+
 		<label>Snapcast Server</label>
 
 		<channels>
-			<channel id="streams" typeId="serverStreams" />
-			<channel id="streamsPlaying" typeId="serverStreamsPlaying" />
-			<channel id="streamsIdle" typeId="serverStreamsIdle" />
+			<channel id="streams" typeId="serverStreams"/>
+			<channel id="streamsPlaying" typeId="serverStreamsPlaying"/>
+			<channel id="streamsIdle" typeId="serverStreamsIdle"/>
 		</channels>
 
 		<config-description>

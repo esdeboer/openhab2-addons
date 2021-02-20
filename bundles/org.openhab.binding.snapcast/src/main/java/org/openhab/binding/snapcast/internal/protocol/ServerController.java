@@ -118,5 +118,4 @@ public class ServerController extends AbstractController<ServerAttributes, Serve
     void handleUpdate(ServerAttributes params) {
         updateThingState(params);
     }
-
 }

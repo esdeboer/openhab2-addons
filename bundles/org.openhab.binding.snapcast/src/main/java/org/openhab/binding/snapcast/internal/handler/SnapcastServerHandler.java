@@ -119,7 +119,6 @@ public class SnapcastServerHandler extends BaseBridgeHandler {
                 updateStatus(ThingStatus.OFFLINE, ThingStatusDetail.COMMUNICATION_ERROR);
             }
         }
-
     }
 
     /**
@@ -163,7 +162,5 @@ public class SnapcastServerHandler extends BaseBridgeHandler {
                         new StringType(String.join(STREAM_STATE_DELIMITER, streamsIdle)));
             }
         }
-
     }
-
 }
