@@ -6,20 +6,20 @@
 
 	<!-- Snapcast Client -->
 	<thing-type id="client" listed="false">
-	
+
 		<supported-bridge-type-refs>
-			<bridge-type-ref id="server" />
+			<bridge-type-ref id="server"/>
 		</supported-bridge-type-refs>
-	
+
 		<label>Snapcast Client</label>
 
 		<channels>
-			<channel id="name" typeId="clientName" />
-			<channel id="volume" typeId="system.volume" />
-			<channel id="mute" typeId="system.mute" />
-			<channel id="latency" typeId="clientLatency" />
-			<channel id="stream" typeId="streamId" />
-			<channel id="streamStatus" typeId="streamStatus" />
+			<channel id="name" typeId="clientName"/>
+			<channel id="volume" typeId="system.volume"/>
+			<channel id="mute" typeId="system.mute"/>
+			<channel id="latency" typeId="clientLatency"/>
+			<channel id="stream" typeId="streamId"/>
+			<channel id="streamStatus" typeId="streamStatus"/>
 		</channels>
 
 		<config-description>
@@ -27,7 +27,7 @@
 				<label>Client-ID</label>
 			</parameter>
 		</config-description>
-		
+
 	</thing-type>
 
 </thing:thing-descriptions>

@@ -215,7 +215,6 @@ public class Server {
             }
             return true;
         }
-
     }
 
     /**
@@ -350,7 +349,5 @@ public class Server {
             }
             return true;
         }
-
     }
-
 }

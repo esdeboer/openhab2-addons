@@ -21,5 +21,4 @@ import org.eclipse.jdt.annotation.NonNullByDefault;
 public interface StreamListener {
 
     public void updateStatus(String streamId);
-
 }

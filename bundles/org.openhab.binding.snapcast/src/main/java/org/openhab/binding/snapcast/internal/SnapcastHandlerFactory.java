@@ -100,7 +100,5 @@ public class SnapcastHandlerFactory extends BaseThingHandlerFactory {
                 discoveryService.deactivate();
             }
         }
-
     }
-
 }

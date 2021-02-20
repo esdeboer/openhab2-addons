@@ -50,5 +50,4 @@ public class SnapcastBindingConstants {
     public static final String STREAM_STATE_PLAYING = "playing";
     public static final String STREAM_STATE_IDLE = "idle";
     public static final String STREAM_STATE_DELIMITER = ",";
-
 }

@@ -256,7 +256,6 @@ public class Stream implements Identifiable {
             }
             return true;
         }
-
     }
 
     /**
@@ -391,7 +390,5 @@ public class Stream implements Identifiable {
             }
             return true;
         }
-
     }
-
 }

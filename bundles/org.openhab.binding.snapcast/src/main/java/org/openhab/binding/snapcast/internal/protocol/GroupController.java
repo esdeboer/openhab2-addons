@@ -40,7 +40,7 @@ public class GroupController extends AbstractController<Group, GroupListener> {
     /**
      * Set the stream for a group
      *
-     * @param id       The internal snapcast-id of the group
+     * @param id The internal snapcast-id of the group
      * @param streamId id of the stream
      */
     public void setStream(String id, String streamId) {
@@ -53,7 +53,7 @@ public class GroupController extends AbstractController<Group, GroupListener> {
     /**
      * Set the clients for a group
      *
-     * @param id      The internal snapcast-id of the group
+     * @param id The internal snapcast-id of the group
      * @param clients the ids of the clients
      */
     public void setClients(String id, List<String> clients) {
@@ -107,5 +107,4 @@ public class GroupController extends AbstractController<Group, GroupListener> {
         // update stream
         eachListener(groupId, listener -> listener.updateStream(groupId));
     }
-
 }

@@ -90,5 +90,4 @@ public class ServerDiscoveryService implements MDNSDiscoveryParticipant {
             return null;
         }
     }
-
 }

@@ -136,8 +136,8 @@ public class SnapcastController {
     /**
      * Register a listener for a notification method
      *
-     * @param method        Name of the method
-     * @param notifyType    Type of the notification parameters
+     * @param method Name of the method
+     * @param notifyType Type of the notification parameters
      * @param notifyHandler Handler for processing the notification
      */
     public <T> void registerNotifyListener(String method, Class<T> notifyType, Consumer<T> notifyHandler) {
@@ -151,8 +151,8 @@ public class SnapcastController {
     /**
      * Send a request to the snapcast server
      *
-     * @param method          Name of the method
-     * @param responseType    Type of the response parameters
+     * @param method Name of the method
+     * @param responseType Type of the response parameters
      * @param responseHandler Handler for processing the response
      */
     public <T> void sendRequest(String method, Class<T> responseType, Consumer<T> responseHandler) {
@@ -162,9 +162,9 @@ public class SnapcastController {
     /**
      * Send a request to the snapcast server
      *
-     * @param method          Name of the method
-     * @param params          Data to send
-     * @param responseType    Type of the response parameters
+     * @param method Name of the method
+     * @param params Data to send
+     * @param responseType Type of the response parameters
      * @param responseHandler Handler for processing the response
      */
     public <T> void sendRequest(String method, @Nullable Identifiable params, Class<T> responseType,
@@ -323,7 +323,6 @@ public class SnapcastController {
             } else if ((id = json.id) != null && json.result != null) {
                 callResponseHandler(id, (@NonNull JsonElement) json.result);
             }
-
         }
 
         private void callNotifyHandler(String method, JsonElement result) {
@@ -345,7 +344,6 @@ public class SnapcastController {
                 ref.callHandler(result);
             }
         }
-
     }
 
     /**
@@ -357,7 +355,7 @@ public class SnapcastController {
         private final @Nullable String id;
 
         /**
-         * @param responseType    Type of the response parameters
+         * @param responseType Type of the response parameters
          * @param responseHandler Handler for processing the response
          */
         private HandlerRef(Class<T> responseType, Consumer<T> responseHandler) {
@@ -365,7 +363,7 @@ public class SnapcastController {
         }
 
         /**
-         * @param responseType    Type of the response parameters
+         * @param responseType Type of the response parameters
          * @param responseHandler Handler for processing the response
          * @param params
          */

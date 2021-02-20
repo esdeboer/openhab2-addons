@@ -260,7 +260,5 @@ public class Group implements Identifiable {
             }
             return true;
         }
-
     }
-
 }

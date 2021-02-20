@@ -21,5 +21,4 @@ import org.eclipse.jdt.annotation.NonNullByDefault;
 public interface GroupListener {
 
     public void updateStream(String groupId);
-
 }

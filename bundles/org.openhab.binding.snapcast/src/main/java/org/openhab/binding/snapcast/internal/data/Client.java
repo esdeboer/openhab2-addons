@@ -358,7 +358,6 @@ public class Client implements Identifiable {
             }
             return true;
         }
-
     }
 
     /**
@@ -449,7 +448,6 @@ public class Client implements Identifiable {
             }
             return true;
         }
-
     }
 
     /**
@@ -534,7 +532,6 @@ public class Client implements Identifiable {
             }
             return true;
         }
-
     }
 
     /**
@@ -644,7 +641,5 @@ public class Client implements Identifiable {
             }
             return true;
         }
-
     }
-
 }

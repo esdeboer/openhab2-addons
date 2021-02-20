@@ -55,5 +55,4 @@ public class StreamController extends AbstractController<Stream, StreamListener>
         final String streamId = params.getId();
         eachListener(streamId, listener -> listener.updateStatus(streamId));
     }
-
 }

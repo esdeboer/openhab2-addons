@@ -145,5 +145,4 @@ public class ClientDiscoveryService extends AbstractDiscoveryService {
         public void updateGroup(String clientId) {
         }
     }
-
 }

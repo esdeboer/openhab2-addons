@@ -21,5 +21,4 @@ import org.eclipse.jdt.annotation.NonNullByDefault;
 public interface ServerListener {
 
     public void updateConnection(boolean established);
-
 }
