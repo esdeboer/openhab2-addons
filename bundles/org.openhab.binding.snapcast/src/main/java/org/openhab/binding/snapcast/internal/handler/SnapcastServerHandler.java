@@ -20,20 +20,20 @@ import java.util.List;
 
 import org.eclipse.jdt.annotation.NonNullByDefault;
 import org.eclipse.jdt.annotation.Nullable;
-import org.eclipse.smarthome.core.library.types.StringType;
-import org.eclipse.smarthome.core.thing.Bridge;
-import org.eclipse.smarthome.core.thing.ChannelUID;
-import org.eclipse.smarthome.core.thing.ThingStatus;
-import org.eclipse.smarthome.core.thing.ThingStatusDetail;
-import org.eclipse.smarthome.core.thing.binding.BaseBridgeHandler;
-import org.eclipse.smarthome.core.types.Command;
-import org.eclipse.smarthome.core.types.RefreshType;
 import org.openhab.binding.snapcast.internal.data.Stream;
 import org.openhab.binding.snapcast.internal.protocol.ServerController;
 import org.openhab.binding.snapcast.internal.protocol.ServerListener;
 import org.openhab.binding.snapcast.internal.protocol.SnapcastController;
 import org.openhab.binding.snapcast.internal.protocol.StreamController;
 import org.openhab.binding.snapcast.internal.protocol.StreamListener;
+import org.openhab.core.library.types.StringType;
+import org.openhab.core.thing.Bridge;
+import org.openhab.core.thing.ChannelUID;
+import org.openhab.core.thing.ThingStatus;
+import org.openhab.core.thing.ThingStatusDetail;
+import org.openhab.core.thing.binding.BaseBridgeHandler;
+import org.openhab.core.types.Command;
+import org.openhab.core.types.RefreshType;
 
 /**
  * {@link SnapcastClientHandler} is the handler for a snapcast server.
