@@ -101,6 +101,7 @@
 /bundles/org.openhab.binding.enphase/ @Hilbrand
 /bundles/org.openhab.binding.enturno/ @klocsson
 /bundles/org.openhab.binding.epsonprojector/ @mlobstein
+/bundles/org.openhab.binding.eric/ @esdeboer
 /bundles/org.openhab.binding.etherrain/ @dfad1469
 /bundles/org.openhab.binding.evcc/ @florian-h05
 /bundles/org.openhab.binding.evohome/ @Nebula83

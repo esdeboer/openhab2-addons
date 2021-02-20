@@ -354,6 +354,7 @@
     <module>org.openhab.binding.smgw</module>
     <module>org.openhab.binding.smhi</module>
     <module>org.openhab.binding.smsmodem</module>
+    <module>org.openhab.binding.snapcast</module>
     <module>org.openhab.binding.sncf</module>
     <module>org.openhab.binding.snmp</module>
     <module>org.openhab.binding.solaredge</module>
