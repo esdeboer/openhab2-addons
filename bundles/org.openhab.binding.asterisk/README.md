@@ -1,0 +1,40 @@
+# Asterisk Binding
+
+_Give some details about what this binding is meant for - a protocol, system, specific device._
+
+_If possible, provide some resources like pictures, a YouTube video, etc. to give an impression of what can be done with
+this binding. You can place such resources into a `doc` folder next to this README.md._
+
+## Supported Things
+
+_Please describe the different supported things / devices within this section._
+_Which different types are supported, which models were tested etc.?_
+_Note that it is planned to generate some part of this based on the XML files
+within ```src/main/resources/OH-INF/thing``` of your binding._
+
+## Thing Configuration
+
+_Describe what is needed to manually configure a thing, either through the (Paper) UI or via a thing-file. This should
+be mainly about its mandatory and optional configuration parameters. A short example entry for a thing file can help!_
+
+_Note that it is planned to generate some part of this based on the XML files
+within ```src/main/resources/OH-INF/thing``` of your binding._
+
+## Channels
+
+_Here you should provide information about available channel types, what their meaning is and how they can be used._
+
+_Note that it is planned to generate some part of this based on the XML files
+within ```src/main/resources/OH-INF/thing``` of your binding._
+
+| channel  | type   | description                  |
+|----------|--------|------------------------------|
+| control  | Switch | This is the control channel  |
+
+## Full Example
+
+_Provide a full usage example based on textual configuration files (*.things, *.items, *.sitemap)._
+
+## Any custom content here!
+
+_Feel free to add additional sections for whatever you think should also be mentioned about your binding!_
