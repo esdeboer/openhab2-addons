@@ -28,6 +28,7 @@
 /bundles/org.openhab.binding.anel/ @paphko
 /bundles/org.openhab.binding.anthem/ @mhilbush
 /bundles/org.openhab.binding.asuswrt/ @wildcs
+/bundles/org.openhab.binding.asterisk/ @esdeboer
 /bundles/org.openhab.binding.astro/ @gerrieg
 /bundles/org.openhab.binding.atlona/ @mlobstein
 /bundles/org.openhab.binding.autelis/ @digitaldan
